@@ -1,8 +1,8 @@
-# Floating Rock Jobs
+# Jobs Aggregator
 
 Just getting started. 
 
-This app will scrape and list jobs. Project will be dedicated to a person, who inspired me with their strength and gave me motivation to become better.
+This app will scrape and list jobs
 
 
 ## Tech Stack
