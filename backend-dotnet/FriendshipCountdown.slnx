@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FriendshipCountdown.Api/FriendshipCountdown.Api.csproj" />
+    <Project Path="src/FriendshipCountdown.Application/FriendshipCountdown.Application.csproj" />
+    <Project Path="src/FriendshipCountdown.Domain/FriendshipCountdown.Domain.csproj" />
+    <Project Path="src/FriendshipCountdown.Infrastructure/FriendshipCountdown.Infrastructure.csproj" />
+  </Folder>
+</Solution>
