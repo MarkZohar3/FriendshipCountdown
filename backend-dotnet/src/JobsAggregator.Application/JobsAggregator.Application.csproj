@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\FriendshipCountdown.Domain\FriendshipCountdown.Domain.csproj" />
+    <ProjectReference Include="..\JobsAggregator.Domain\JobsAggregator.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

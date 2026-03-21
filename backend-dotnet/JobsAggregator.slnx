@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/JobsAggregator.Api/JobsAggregator.Api.csproj" />
+    <Project Path="src/JobsAggregator.Application/JobsAggregator.Application.csproj" />
+    <Project Path="src/JobsAggregator.Domain/JobsAggregator.Domain.csproj" />
+    <Project Path="src/JobsAggregator.Infrastructure/JobsAggregator.Infrastructure.csproj" />
+  </Folder>
+</Solution>

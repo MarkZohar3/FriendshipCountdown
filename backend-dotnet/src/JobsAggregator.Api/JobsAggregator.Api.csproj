@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
-    <ProjectReference Include="..\FriendshipCountdown.Infrastructure\FriendshipCountdown.Infrastructure.csproj" />
-    <ProjectReference Include="..\FriendshipCountdown.Domain\FriendshipCountdown.Domain.csproj" />
-    <ProjectReference Include="..\FriendshipCountdown.Application\FriendshipCountdown.Application.csproj" />
+    <ProjectReference Include="..\JobsAggregator.Infrastructure\JobsAggregator.Infrastructure.csproj" />
+    <ProjectReference Include="..\JobsAggregator.Domain\JobsAggregator.Domain.csproj" />
+    <ProjectReference Include="..\JobsAggregator.Application\JobsAggregator.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

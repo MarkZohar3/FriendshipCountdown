@@ -100,36 +100,36 @@ repo root is a clean, well-defined step if independent scaling is needed later.
 
 ```
 backend-dotnet/
-├── FriendshipCountdown.sln
+├── JobsAggregator.sln
 │
 └── src/
-    ├── FriendshipCountdown.Domain/
+    ├── JobsAggregator.Domain/
     │   ├── Jobs/
     │   │   ├── Job.cs                        ← domain entity (replaces job.schema.ts)
     │   │   └── IJobsRepository.cs            ← repository interface
-    │   └── FriendshipCountdown.Domain.csproj
+    │   └── JobsAggregator.Domain.csproj
     │
-    ├── FriendshipCountdown.Application/
+    ├── JobsAggregator.Application/
     │   ├── Jobs/
     │   │   ├── JobDto.cs                     ← response DTO (replaces job.dto.ts)
     │   │   ├── IJobsService.cs               ← application service interface
     │   │   └── JobsService.cs                ← orchestrates IJobsRepository
-    │   └── FriendshipCountdown.Application.csproj
+    │   └── JobsAggregator.Application.csproj
     │
-    ├── FriendshipCountdown.Infrastructure/
+    ├── JobsAggregator.Infrastructure/
     │   ├── MongoDB/
     │   │   └── JobsRepository.cs             ← MongoDB.Driver implementation of IJobsRepository
     │   ├── RabbitMQ/
     │   │   ├── JobsMessageConsumer.cs        ← replaces jobs-message.handler.ts
     │   │   └── JobMessage.cs                 ← inbound message contract (replaces deserializer)
-    │   └── FriendshipCountdown.Infrastructure.csproj
+    │   └── JobsAggregator.Infrastructure.csproj
     │
-    └── FriendshipCountdown.Api/
+    └── JobsAggregator.Api/
         ├── Program.cs                        ← replaces main.ts + app.module.ts
         ├── appsettings.json                  ← replaces .env
         ├── Controllers/
         │   └── JobsController.cs             ← replaces app.controller.ts
-        └── FriendshipCountdown.Api.csproj
+        └── JobsAggregator.Api.csproj
 ```
 
 **Notes on structure:**
@@ -158,7 +158,7 @@ backend-dotnet/
 ## Step-by-step implementation plan
 
 ### Phase 1 — Solution scaffold
-- Create `FriendshipCountdown.sln` inside `backend-dotnet/`
+- Create `JobsAggregator.sln` inside `backend-dotnet/`
 - Create three projects: `Domain`, `Infrastructure`, `Api`
 - Add NuGet packages:
   - `MongoDB.Driver` → Infrastructure

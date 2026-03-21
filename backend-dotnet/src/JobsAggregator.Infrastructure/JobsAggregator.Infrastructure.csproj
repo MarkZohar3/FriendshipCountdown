@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\FriendshipCountdown.Domain\FriendshipCountdown.Domain.csproj" />
-    <ProjectReference Include="..\FriendshipCountdown.Application\FriendshipCountdown.Application.csproj" />
+    <ProjectReference Include="..\JobsAggregator.Domain\JobsAggregator.Domain.csproj" />
+    <ProjectReference Include="..\JobsAggregator.Application\JobsAggregator.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
